@@ -30,8 +30,10 @@
   }
   
   .text {
+    /* esto hace que desaparezca
     display: none;
     opacity: 0;
+    */
     transition: opacity 1s ease;
     padding: 20px;
     background-color: #fff;
@@ -47,6 +49,7 @@
   }
   
   /* Animación de fade-in para cada fragmento */
+  
   @keyframes fadeIn {
     from {
       opacity: 0;
